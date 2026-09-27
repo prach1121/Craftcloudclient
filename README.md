@@ -1,6 +1,6 @@
 # Craftcloud Client
 
-![Version](https://img.shields.io/badge/version-1.1.3-blue)
+![Version](https://img.shields.io/badge/version-1.1.5-blue)
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-green)
 ![Fabric](https://img.shields.io/badge/Fabric-0.18.2%2B-orange)
 ![License](https://img.shields.io/badge/license-Apache%202.0-red)
