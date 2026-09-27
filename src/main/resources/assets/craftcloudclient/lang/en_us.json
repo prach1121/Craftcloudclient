@@ -1,0 +1,15 @@
+{
+	"key.craftcloudclient.openmenu": "Open Craftcloud Client Menu",
+	"key.craftcloudclient.togglefpsboost": "Toggle FPS Boost",
+	"key.craftcloudclient.togglepvpmode": "Toggle PvP Mode",
+	"key.craftcloudclient.togglehud": "Toggle Craftcloud HUD",
+	"key.craftcloudclient.edithudlayout": "Edit HUD Layout",
+	"key.craftcloudclient.saygg": "Say GG",
+	"key.craftcloudclient.addwaypoint": "Add Waypoint",
+	"key.craftcloudclient.copycoords": "Copy Coordinates",
+	"key.craftcloudclient.zoom": "Zoom",
+	"key.craftcloudclient.togglefullbright": "Toggle Full Bright",
+	"key.craftcloudclient.togglerain": "Toggle Rain",
+	"key.craftcloudclient.togglehideplayers": "Toggle Hide Players",
+	"key.category.craftcloudclient.general": "Craftcloud Client"
+}

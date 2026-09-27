@@ -1,0 +1,15 @@
+{
+	"key.craftcloudclient.openmenu": "เปิดเมนู Craftcloud Client",
+	"key.craftcloudclient.togglefpsboost": "สลับโหมดเร่ง FPS",
+	"key.craftcloudclient.togglepvpmode": "สลับโหมด PvP",
+	"key.craftcloudclient.togglehud": "สลับการแสดงผล HUD",
+	"key.craftcloudclient.edithudlayout": "แก้ไขตำแหน่ง HUD",
+	"key.craftcloudclient.saygg": "พิมพ์ GG อัตโนมัติ",
+	"key.craftcloudclient.addwaypoint": "เพิ่ม Waypoint",
+	"key.craftcloudclient.copycoords": "คัดลอกพิกัด",
+	"key.craftcloudclient.zoom": "ซูม",
+	"key.craftcloudclient.togglefullbright": "สลับโหมด Full Bright",
+	"key.craftcloudclient.togglerain": "สลับการแสดงฝน",
+	"key.craftcloudclient.togglehideplayers": "สลับการซ่อนผู้เล่น",
+	"key.category.craftcloudclient.general": "Craftcloud Client"
+}

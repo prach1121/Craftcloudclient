@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "craftcloudclient",
+	"version": "${version}",
+	"name": "Craftcloud Client",
+	"description": "A lightweight glass-styled PvP HUD client: TPS, FPS, Ping overlay with configurable positions and performance tweaks for smoother gameplay.",
+	"authors": [
+		"CraftcloudNet.com",
+		"Prach (owner)"
+	],
+	"contact": {
+		"homepage": "https://craftcloudnet.com",
+		"issues": "https://discord.gg/WPXJ8eDYUG"
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/craftcloudclient/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.craftcloudclient.client.CraftcloudClient"
+		]
+	},
+	"mixins": [
+		"craftcloudclient.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"fabric-api": "*",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.craftcloudclient.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ClientWorldMixin",
+		"VanillaOptionsThemeMixin",
+		"TitleScreenButtonThemeMixin",
+		"GameMenuLogoMixin",
+		"BossBarHudMixin",
+		"WorldWeatherMixin",
+		"PlayerRenderMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,60 @@
+plugins {
+	id 'fabric-loom' version '1.14-SNAPSHOT'
+	id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	// Add repositories here if you need them for extra dependencies
+}
+
+loom {
+	// Splits mixins/classes between common and client - we are client-only,
+	// but keeping this off keeps the project simple.
+}
+
+dependencies {
+	// Minecraft & mappings
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+	// Fabric API
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// Gson is already shipped with Minecraft, used for our config file
+}
+
+// A short, sortable identifier for this specific build (e.g. "20260719.1042"),
+// distinct from the human-facing mod_version above - shown together on the
+// config screen's About tab so a bug report can pin down the exact jar.
+def buildId = new Date().format("yyyyMMdd.HHmm")
+
+processResources {
+	inputs.property "version", project.version
+	inputs.property "build", buildId
+
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+	filesMatching("craftcloudclient_build.properties") {
+		expand "build": buildId
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.encoding = "UTF-8"
+	it.options.release = 21
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
