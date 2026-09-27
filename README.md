@@ -1,5 +1,10 @@
 # Craftcloud Client
 
+![Version](https://img.shields.io/badge/version-1.1.3-blue)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-green)
+![Fabric](https://img.shields.io/badge/Fabric-0.18.2%2B-orange)
+![License](https://img.shields.io/badge/license-Apache%202.0-red)
+
 A client-side Fabric mod for Minecraft 1.21.11. HUD overlay, a config menu, and
 a handful of QoL/PvP-visibility features. No packet manipulation, no
 gameplay-affecting cheats — everything here is rendering, input, or local
@@ -89,4 +94,4 @@ src/main/java/com/craftcloudclient/client/
 
 ## License
 
-Apache License 2.0 — see [LICENSE](LICENSE).
+Apache License 2.0 — see [LICENSE](LICENSE) for the full text.
